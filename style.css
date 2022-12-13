@@ -112,7 +112,7 @@
 
   }
 
-  
+
   #profile {
 
     width: 100%;
@@ -173,6 +173,17 @@
     list-style: none;
 
   }
+
+
+  .project-CV {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: black; 
+    text-decoration: none;
+
+  }
+
 
 
 
