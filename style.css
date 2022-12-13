@@ -80,7 +80,7 @@
 
   }
 
-  
+
   .section-item a:hover {
     color: #0a1144;
   }
@@ -95,3 +95,20 @@
     transition: 0.1s;
 
   }
+
+  .main_wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+
+  .section {
+
+    width: calc(50% - 20px);
+    padding: 50px;
+    padding-bottom: 35px;
+
+  }
+
