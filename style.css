@@ -41,13 +41,57 @@
     min-height: 100vh;
 
     background-color:#CFDBDA;
-    background-repeat: no-repeat;
-    background-size: cover; 
     
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     color: black;
+
+  }
+
+  .nav-list {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+
+  }
+
+
+  .nav-link {
+
+    padding: 0 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    transition: .3s;
+   
+  }
+
+
+  .section-item a {
+
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+
+  }
+
+  
+  .section-item a:hover {
+    color: #0a1144;
+  }
+
+
+  .nav-link:hover {
+        
+    border-bottom: 4px solid rgb(75, 96, 119);
+    border-radius: 50%;
+    background-color: rgb(249, 248, 242);
+    color: #04071d;
+    transition: 0.1s;
 
   }
